@@ -1,9 +1,9 @@
 [user]
-	name = Sam S
-	email = lytefast@gmail.com
+	name = Sam Shih
+	email = shih@discordapp.com
 
 [alias]
-	lg = log --color --graph --pretty=format:'%C(red)%h%Creset %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit
+	lg = log --color --graph --pretty=format:'%C(red)%h%Creset %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev=12
 	ll = log --color --graph --pretty=format:'%C(red)%h%Creset %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --decorate --numstat
 	alias = config --get-regexp ^alias\\.
 	# Get the first matching branch and archive it
